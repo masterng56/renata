@@ -243,6 +243,8 @@ p {
 }
 
 .service-description {
+    min-width: 280px;
+    min-height: 370px;
     line-height: 22px;
     color: #EBEBEB;
     opacity: 0;
