@@ -116,6 +116,7 @@ p {
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #FF7777;
+    transition: all 0.5s ease 0s;
 }
 
 .btn-appointment {
@@ -134,6 +135,7 @@ p {
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
+    transition: all 0.5s ease 0s;
 }
 
 .btn-appointment:hover {
@@ -152,6 +154,7 @@ p {
 
 .btn-appointment:active {
     box-shadow: inset 0px -6px 6px rgba(0, 0, 0, 0.25), inset 0px 6px 6px rgba(0, 0, 0, 0.25);
+    transition: all 0.1s ease 0s;
 }
 
 .site-descripion {
@@ -198,7 +201,7 @@ p {
 }
 
 .service-item:hover .service-description {
-    opacity: 1;
+    display: block;
 }
 
 .service-item:hover .service-img {
@@ -247,6 +250,6 @@ p {
     min-height: 370px;
     line-height: 22px;
     color: #EBEBEB;
-    opacity: 0;
+    display: none;
     font-size: 16px;
 }
