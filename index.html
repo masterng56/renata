@@ -27,8 +27,8 @@
             </a>
             <a class="navbar-brand brend-title main-tilte" href="#">renata</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+					  <span class="navbar-toggler-icon"></span>
+					</button>
 
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto font-releway font18">
@@ -120,6 +120,7 @@
                 </div>
             </div>
         </section>
+
         <section>
             <!-- CSS for form -->
             <style>
@@ -128,7 +129,7 @@
                     background-size: cover;
                 }
             </style>
-
+            <!-- appointment -->
             <div class="container-fluid img-cover-form shadow-two">
                 <div class="container">
                     <div class="row">
@@ -150,59 +151,39 @@
                                 <div class="form-checkbox">
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Стрижка</p>
-                                        <input class="checkbox-input" type="radio" name="haircut" value="Стрижка">
+                                        <input class="checkbox-input" id="haircut" type="checkbox" name="haircut" value="Стрижка">
+                                        <label class="label" for="haircut"></label>
+
                                     </div>
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Окрашивание</p>
-                                        <input class="checkbox-input" type="radio" name="coloring" value="Окрашивание">
+                                        <input class="checkbox-input" id="coloring" type="checkbox" name="coloring" value="Окрашивание">
+                                        <label class="label" for="coloring"></label>
                                     </div>
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Манекюр</p>
-                                        <input class="checkbox-input" type="radio" name="manicure" value="Манекюр">
+                                        <input class="checkbox-input" id="manicure" type="checkbox" name="manicure" value="Манекюр">
+                                        <label class="label" for="manicure"></label>
                                     </div>
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Шугаринг</p>
-                                        <input class="checkbox-input" type="radio" name="sugaring" value="Шугаринг">
+                                        <input class="checkbox-input" id="sugaring" type="checkbox" name="sugaring" value="Шугаринг">
+                                        <label class="label" for="sugaring"></label>
                                     </div>
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Консультция</p>
-                                        <input class="checkbox-input" type="radio" name="consultation" value="Консультция">
+                                        <input class="checkbox-input" id="consultation" type="checkbox" name="consultation" value="Консультция">
+                                        <label class="label" for="consultation"></label>
                                     </div>
                                     <div class="checkbox-item">
                                         <p class="checkbox-text">Мелирование</p>
-                                        <input class="checkbox-input" type="radio" name="Highlighting" value="Мелирование">
+                                        <input class="checkbox-input" id="Highlighting" type="checkbox" name="Highlighting" value="Мелирование">
+                                        <label class="label" for="Highlighting"></label>
                                     </div>
-                                    <div class="checkbox-item">
-                                        <p class="checkbox-text">Стрижка</p>
-                                        <input class="checkbox-input" type="radio" name="haircut" value="Стрижка">
-                                    </div>
-                                    <div class="checkbox-item">
-                                        <p class="checkbox-text">Окрашивание</p>
-                                        <input class="checkbox-input" type="radio" name="coloring" value="Окрашивание">
-                                    </div>
-                                    <!-- <div class="checkbox-item">
-                                        <p class="checkbox-text">Манекюр</p>
-                                        <input class="checkbox-input" type="radio" name="manicure" value="Манекюр">
-                                    </div>
-                                    <div class="checkbox-item">
-                                        <p class="checkbox-text">Шугаринг</p>
-                                        <input class="checkbox-input" type="radio" name="sugaring" value="Шугаринг">
-                                    </div>
-                                    <div class="checkbox-item">
-                                        <p class="checkbox-text">Консультция</p>
-                                        <input class="checkbox-input" type="radio" name="consultation" value="Консультция">
-                                    </div>
-                                    <div class="checkbox-item">
-                                        <p class="checkbox-text">Мелирование</p>
-                                        <input class="checkbox-input" type="radio" name="Highlighting" value="Мелирование">
-                                    </div> -->
-
-
                                 </div>
                                 <div>
                                     <button type="submit" class="btn-appointment appointment-button">Записаться</button>
                                 </div>
-
                             </form>
                         </div>
                     </div>
@@ -210,8 +191,6 @@
             </div>
         </section>
     </main>
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -221,10 +200,10 @@
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	-->
 </body>
 
 </html>
