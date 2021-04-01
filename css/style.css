@@ -4,6 +4,7 @@ a {
 
 a:hover {
     color: rgba(0, 0, 0, 0);
+    text-decoration: none;
 }
 
 h1,
@@ -464,4 +465,100 @@ label {
 
 .carousel-indicators:nth-child(3) {
     margin-right: 0
+}
+
+
+/* contakts */
+
+.contakts-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contakts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-contakts {
+    background-color: #EBEBEB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contakts-list {}
+
+.contakts-item {
+    display: flex;
+    align-items: baseline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 68px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+ul li a {
+    color: #000;
+}
+
+ul li a:hover {
+    color: #000;
+}
+
+ul li p {
+    margin-bottom: 0;
+}
+
+i {
+    color: #FF7777;
+    width: 24px;
+    height: auto;
+    margin-right: 25px;
+}
+
+
+/* map */
+
+.map {
+    min-width: 445px;
+    min-height: 537px;
+    filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.25));
+}
+
+
+/* footer */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    color: #FF7777;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-logo {
+    padding: 0 12px;
+    margin-right: 0;
+}
+
+.nav-footer {}
+
+.navbar-footer {
+    display: flex;
+    margin: 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
 }
