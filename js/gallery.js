@@ -9,8 +9,8 @@ const gallery = document.querySelectorAll(".image"),
 
 window.onload = () => {
     for (let i = 0; i < gallery.length; i++) {
-        totalImg.textContent = gallery.length; //передача общей длины изображения в переменную totalImg
-        let newIndex = i; //передача значения i в новую newIndex переменную
+        totalImg.textContent = gallery.length; //Получаем количество изображений и записываем в переменную totalImg textContent – это свойство, которое предназначено для работы с текстовым контентом элемента. Оно позволяет его как получить (включая текстовое содержимое всего его потомков), так и установить. В превью будем показывать количество картинок.
+        let newIndex = i;
         let clickedImgIndex;
 
         gallery[i].onclick = () => {
